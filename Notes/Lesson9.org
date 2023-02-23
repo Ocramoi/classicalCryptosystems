@@ -1,0 +1,11 @@
+#+title: Lesson 9
+#+AUTHOR: Marco Antônio Ribeiro de Toledo
+#+DATE: <2023-02-23 Thu>
+
+* Crypto analysis of the Vigenere Cypher
++ (The Kasiski method) Using the Index of Coincidence of the cypher n-th letters for different lengths of keys (for a key of size 4, for example, every 4th letter will have been encrypted with the same letter) we can find the most likely length of the key
++ Once we 'know' the length (n) of the key, the n-th letters of the cypher text will be a Caesar cypher, which can then be decoded using frequency analysis.
+** Material
+- [[file:Lesson9.pptx][Slides]]
+- [[http://practicalcryptography.com/cryptanalysis/stochastic-searching/cryptanalysis-vigenere-cipher/][Walk through of the crypto analysis of a Vigenere cypher]]
+- [[file:section 12 vigenere cryptanalysis.pdf][Process and hstory of crypto analysis of the Vigenere cypher]]
